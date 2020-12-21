@@ -12,12 +12,11 @@ import pandas as pd
 
 # Grab the Github secret 
 import os 
-COMBLE_MAMMAL = os.environ.get('COMBLE_MAMMAL')
+Doodle_Fox = os.environ.get('Doodle_Fox')
 # 
-WRITE_KEY = COMBLE_MAMMAL
+WRITE_KEY = Doodle_Fox
 ANIMAL = MicroWriter.animal_from_key(WRITE_KEY)
-REPO = 'https://github.com/microprediction/microprediction/blob/master/copula_examples/' + ANIMAL.lower().replace(
-    ' ', '_') + '.py'
+REPO = 'https://github.com/spikeshr/microactors/blob/master/fit.py'
 print('This is '+ANIMAL)
 VERBOSE = False
 
